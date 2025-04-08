@@ -1,0 +1,91 @@
+        ::-webkit-scrollbar {
+            width: 12px; 
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #2c2c2c;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: #484848;
+            border-radius: 10px;
+            border: 3px solid #2c2c2c;
+        }
+
+        ::-webkit-scrollbar-thumb:hover {
+            background: #5c5c5c; 
+        }
+
+        ::-webkit-scrollbar-corner {
+            background: #2c2c2c;
+        }
+
+        .result-area {
+            min-height: 100px;
+            font-size: 1.2rem;
+        }
+        .copy-btn {
+            position: absolute;
+            top: 10px;
+            right: 10px;
+        }
+        .style-options {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 20px;
+        }
+        .style-option {
+            flex: 1;
+            min-width: 200px;
+            padding: 10px;
+            border: 1px solid #dbdbdb;
+            border-radius: 4px;
+            display: flex;
+            align-items: center;
+        }
+        .style-option:hover {
+            background-color: #f5f5f55d;
+        }
+        .style-option label {
+            margin-left: 8px;
+            flex: 1;
+            cursor: pointer;
+        }
+        .style-preview {
+            display: inline-block;
+            margin-left: 10px;
+        }
+        
+        .preview-coret {
+            text-decoration: line-through;
+        }
+        .preview-symbol-slash {
+            position: relative;
+        }
+        .preview-symbol-slash::after {
+            content: '/';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            text-align: center;
+        }
+        .preview-garis-bawah {
+            text-decoration: underline;
+        }
+        .preview-garis-putus {
+            text-decoration: underline;
+            text-decoration-style: dashed;
+        }
+        .preview-menggarisbawahi-ganda {
+            text-decoration: underline double;
+        }
+        .preview-garis-gelombang {
+            text-decoration: underline;
+            text-decoration-style: wavy;
+        }
+        .negative-mb-5 {
+        margin-bottom: -1.5rem; 
+        }
