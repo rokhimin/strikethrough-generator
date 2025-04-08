@@ -2,14 +2,15 @@
 #ReadMe
 
 #### About
-xxx
+Convert your normal text to various styled formats
 
-Live Demo : https://rokhimin.github.io/
-
+#### Live  
+- https://rokhimin.github.io/strikethrough-generator
+- https://strikethrough-generator.vercel.app
 
 ## Contributing
 
-Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/jekyll/. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
+Bug reports and pull requests are welcome on GitHub at https://github.com/rokhimin/jekyll/strikethrough-generator. This project is intended to be a safe, welcoming space for collaboration, and contributors are expected to adhere to the [Contributor Covenant](https://www.contributor-covenant.org/) code of conduct.
 
 ## Development
 
